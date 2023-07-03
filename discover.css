@@ -109,6 +109,7 @@ body{
 }
 .searchi i{
     font-size: 20px;
+    margin-left: -10;
 }
 
 .section1 input{
@@ -636,6 +637,176 @@ body{
     
     .btcopyright{
         margin-right: 37%;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    body {
+        background-color: rgb(255, 253, 127);
+        margin-right: auto;
+    }
+    .uppersection{
+        margin-right: 100%;
+    }
+
+    .uppersection1{
+        margin: 0 100% 0 50%;
+        font-size:8px;
+        gap: 10%;
+    }
+    .uppersection1 span{
+        font-size: 10px;
+        margin-left: 20px;  
+    }
+    .home{
+        margin-left: 5%;
+    }
+    .brows-topic{
+        margin-left: -10%;
+    }
+    .uppersection1 ul{
+        margin-left: 5%;
+        margin-right: 5%;
+        gap: 10%;
+        padding-top: 2%;
+        font-size: 9px;
+    }
+    .searchi i{
+        font-size: 20px;
+        margin-left: -3.5rem;
+        margin-top: 1.5rem;
+    }
+    
+    .section1 input{
+        width: 79%;
+        margin-left: 12%;
+    }
+    .section1 ::placeholder{
+        font-size: 12px;
+    }
+    .section1 button{
+        margin-left: -29%;
+        margin-top: 1.5rem;
+    }
+    .section2{
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        background-size: auto;
+        margin: 0 1%;
+        gap: 40px;
+        padding: 10% 5%;
+    }
+    .web-design{
+        width:92%;
+        font-size: 20px;
+        margin-top: -23%;
+        margin-left: 6%;
+    }
+    .web-design img{
+        width: 64%;
+        margin-top: -7%;
+    }
+    .web-design p{
+        margin-top: 10%;
+    }
+    .finance span{
+        margin-top: -18%;
+    }
+    .finance button{
+        margin-left: 5%;
+        width:50%;
+    }
+    .share-icon{
+        margin: 15% 0;
+    }
+    .finance{
+        margin-left: 6%;
+        width:92%;
+      }
+      .second-menu ul{
+        gap: 2rem;
+        font-size: 17px;
+    }
+    .after-second-menu{
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    .web-design1{
+        width: 92%;
+        line-height: 3rem;
+    }
+    .web-design1 img{
+        
+    }
+    .graphic1{
+        width: 92%;
+        line-height: 3rem;
+    }
+    .logo-design1{
+        width: 92%;
+        line-height: 3rem;
+    }
+    .after-second-menu img{
+        width: 72%;
+    }
+    .logo-design1 img{
+        width: 70%;
+        height: 58%;
+        margin-top: 5%;
+    }
+    .section4{
+        height: 40rem;
+        height: fit-content;
+        font-family: inter;
+    }
+
+    .vertical-line{
+        height: 50rem;
+        margin-left: -70%;
+        margin-top: 29%;
+        
+    }
+    .section4 i{
+        margin-left: -20%;
+        margin-top: 3%;
+        width: 6rem;
+        height: 6rem;
+    }
+    .before-footer{
+        height: 60rem;
+    }
+    .frequent-div{
+        flex-direction: column;
+        margin-left: 30%;
+    }
+    .frequent-div img{
+        width: 145%;
+    }
+    .footer-div{
+        flex-direction: column;
+        height: 30rem;
+        height: fit-content;
+       
+    }
+    .bottom-div{
+        margin-left: 24rem;
+        margin-top: -42%;
+    }
+    .footer1{
+        gap: 2rem;
+        height: 35rem;
+        padding: 5%;
+    }
+    .information{
+        margin-right: 0% ;
+    }
+    .span-icon{
+        margin-left: 39%;
+    }
+    
+    .btcopyright{
+        margin-right: 80%;
     }
 
 }
