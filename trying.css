@@ -7,11 +7,14 @@
 
 
 body{
-    margin: 0;
+    width: 98%;
+    margin: 0 500px 0 10px;
     overflow-x: hidden;
+    border: 1px solid black;
     
 }
 .uppersection{
+    width: 100%;
     background-color: rgb(77,151,163);
     height: 35rem;
     background-size: cover;
@@ -29,7 +32,7 @@ body{
     font-family: Montserrat, sans-serif;
     font-size: 0.8rem;
     margin: 0 7rem;
-    max-width: 100%;
+
 }
 .uppersection1 span{
     font-size: 1.8rem;
@@ -358,7 +361,7 @@ body{
 }
 
 .section4{
-    display: inline-block;
+    display: flex;
     justify-content: center;
     text-align: justify;
     width: 100%;
@@ -375,7 +378,7 @@ body{
 .vertical-line{
     border-left: 8px solid rgb(128,208,199);
     height: 25rem;
-    margin-left: 11%;
+    margin-left: -75%;
     margin-top: 17%;
     position: absolute;
 }
@@ -431,8 +434,6 @@ body{
     gap: 10rem;
     margin-top: 5%;
     line-height: 2rem;
-    
-    
 }
 .footer1 a{
     color: rgb(128,208,199);
@@ -480,10 +481,10 @@ body{
 .bottom-div{
     width: 0;
 	height: 0;
-	border-left: 6rem solid transparent;
-	border-right: 3rem solid transparent;
+	border-left: 7rem solid transparent;
+	border-right: 0.5rem solid transparent;
 	border-bottom: 200px solid rgb(128,208,199);
-    margin-left: 80rem;
+    margin-left: 75rem;
     position: absolute;
     margin-top: -13rem;
 }
@@ -492,6 +493,163 @@ body{
     background-color:rgb(128,208,199);
     height: 1rem;
     position: relative;
-    margin-bottom: rem;
+    margin-bottom: 0;
     
 }
+
+div{
+    /* border: 1px solid red; */
+}
+
+
+
+  
+  @media screen and (max-width: 680px) {
+    body {
+        background-color: aquamarine;
+        margin-right: auto;
+    }
+    .uppersection{
+        margin-right: 100%;
+        
+    }
+
+    .uppersection1{
+        margin: 0 30% 0 21%;
+        font-size: 10px;
+        gap: 15%;
+    }
+    .uppersection1 ul{
+        margin-left: 10%;
+        gap: 6%;
+    }
+    
+    ul div{
+        width: 5%;
+    }
+    .section1 input{
+        width: 77%;
+        margin-left: 12%;
+    }
+    .section1 ::placeholder{
+        font-size: 15px;
+    }
+    .section1 button{
+        margin-left: -21%;
+        margin-top: 2rem;
+    }
+    .section2{
+        flex-direction: column;
+        width: 97%;
+        height: fit-content;
+        background-size: auto;
+        margin: 0 1%;
+        gap: 40px;
+        padding: 10% 5%;
+    }
+    .web-design{
+        width:92%;
+        font-size: 20px;
+        margin-top: -23%;
+        margin-left: 6%;
+    }
+    .web-design img{
+        width: 70%;
+        margin-top: -13%;
+        margin-top: 10%;
+    }
+    .web-design p{
+        margin-top: 10%;
+    }
+    .web-design span{
+        margin-top: 10%;
+    }
+    .finance{
+        margin-left: 6%;
+        width:92%;
+      }
+      .second-menu ul{
+        gap: 2rem;
+    }
+    .after-second-menu{
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    .web-design1{
+        width: 92%;
+        line-height: 3rem;
+    }
+    .graphic1{
+        width: 92%;
+        line-height: 3rem;
+    }
+    .logo-design1{
+        width: 92%;
+        line-height: 3rem;
+    }
+    .after-second-menu img{
+        width: 72%;
+    }
+    .logo-design1 img{
+        width: 70%;
+        height: 63%;
+        margin-top: 5%;
+    }
+    .section4{
+        height: 40rem;
+        height: fit-content;
+    }
+    .section4 h2{
+        line-height: 20px;
+    }
+
+    .vertical-line{
+        height: 45rem;
+        margin-left: -70%;
+        margin-top: 25%;
+        
+    }
+    .section4 i{
+        margin-left: -23%;
+        margin-top: 3%;
+        width: 6rem;
+        height: 6rem;
+    }
+    .before-footer{
+        height: 60rem;
+    }
+    .frequent-div{
+        flex-direction: column;
+        margin-left: 30%;
+    }
+    .frequent-div img{
+        width: 145%;
+    }
+    .footer-div{
+        flex-direction: column;
+        height: 30rem;
+        height: fit-content;
+       
+    }
+    .bottom-div{
+        margin-left: 32.5rem;
+    }
+    .footer1{
+        gap: 1rem;
+        height: 40rem;
+        height: fit-content;
+        padding: 5%;
+    }
+    .information{
+        margin-right: 20% ;
+    }
+    .span-icon{
+        margin-left: 35%;
+    }
+    .btcopyright{
+        margin-right: 45%;
+
+    }
+
+}
+
