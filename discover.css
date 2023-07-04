@@ -551,9 +551,7 @@ body{
     .web-design p{
         margin-top: 10%;
     }
-    .web-design span{
-        
-    }
+    
     .finance{
         margin-left: 6%;
         width:92%;
@@ -693,7 +691,7 @@ body{
         width: 100%;
         height: fit-content;
         background-size: auto;
-        margin: 0 1%;
+        margin: 0 0%;
         gap: 40px;
         padding: 10% 5%;
     }
@@ -736,9 +734,6 @@ body{
         width: 92%;
         line-height: 3rem;
     }
-    .web-design1 img{
-        
-    }
     .graphic1{
         width: 92%;
         line-height: 3rem;
@@ -763,7 +758,7 @@ body{
 
     .vertical-line{
         height: 50rem;
-        margin-left: -70%;
+        margin-left: -72%;
         margin-top: 29%;
         
     }
