@@ -497,12 +497,11 @@ body{
 
 @media screen and (max-width: 680px) {
     body {
-        background-color: aquamarine;
+        background-color: rgb(188, 211, 203);
         margin-right: auto;
     }
     .uppersection{
         margin-right: 100%;
-        
     }
 
     .uppersection1{
@@ -593,7 +592,6 @@ body{
         height: 50rem;
         margin-left: -70%;
         margin-top: 25%;
-        
     }
     .section4 i{
         margin-left: -23%;
@@ -638,7 +636,7 @@ body{
     }
 
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 720px) {
     body {
         background-color: rgb(255, 253, 127);
         margin-right: auto;
@@ -671,7 +669,7 @@ body{
     }
     .searchi i{
         font-size: 20px;
-        margin-left: -3.5rem;
+        margin-left: -4.5rem;
         margin-top: 1.5rem;
     }
     
@@ -683,7 +681,7 @@ body{
         font-size: 12px;
     }
     .section1 button{
-        margin-left: -29%;
+        margin-left: -20%;
         margin-top: 1.5rem;
     }
     .section2{
@@ -746,8 +744,7 @@ body{
         width: 72%;
     }
     .logo-design1 img{
-        width: 70%;
-        height: 58%;
+        width: 30%;
         margin-top: 5%;
     }
     .section4{
@@ -758,7 +755,7 @@ body{
 
     .vertical-line{
         height: 50rem;
-        margin-left: -72%;
+        margin-left: -64%;
         margin-top: 29%;
         
     }
@@ -782,11 +779,10 @@ body{
         flex-direction: column;
         height: 30rem;
         height: fit-content;
-       
     }
     .bottom-div{
-        margin-left: 24rem;
-        margin-top: -42%;
+        margin-left: 37rem;
+        margin-top: -30%;
     }
     .footer1{
         gap: 2rem;
@@ -801,7 +797,7 @@ body{
     }
     
     .btcopyright{
-        margin-right: 80%;
+        margin-right: 30%;
     }
 
 }
