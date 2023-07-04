@@ -640,6 +640,7 @@ body{
     body {
         background-color: rgb(255, 253, 127);
         margin-right: auto;
+        overflow-x: hidden;
     }
     .uppersection{
         margin-right: 100%;
