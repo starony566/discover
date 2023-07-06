@@ -1,0 +1,11 @@
+.accordion-button{
+    padding: 1% 15% 1% 0;
+    
+}
+.accordion-item{
+    display:contents;
+}
+.accordion-item::after{
+    background-color: brown;
+    width: 20px;
+}

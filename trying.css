@@ -85,6 +85,38 @@ body{
 .uppersection1 ul a:hover{
     color: rgb(19,84,122);
 }
+
+  
+  .dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color:#608ba8;
+    border-radius:5px;
+    
+  }
+  .subnav{
+    cursor: pointer;
+  }
+  .subnav:hover .dropdown-options {
+    display: block;
+    color:rgb(19,84,122);
+  }
+  
+  .dropdown-options a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    padding:20px 20px;
+  }
+  
+  .dropdown-options a:hover {
+    color: #acacce;
+    background-color: #ddc9c9;
+    border-radius:10px;
+  }
+
 .section1 h1{
     font-family: Montserrat;
     font-size: 3.8rem;
@@ -494,17 +526,12 @@ body{
     height: 1rem;
     position: relative;
     margin-bottom: 0;
-    
-}
-
-div{
-    /* border: 1px solid red; */
 }
 
 
 
   
-  @media screen and (max-width: 680px) {
+  @media screen and (max-width: 720px) {
     body {
         background-color: aquamarine;
         margin-right: auto;
@@ -515,22 +542,20 @@ div{
     }
 
     .uppersection1{
-        margin: 0 30% 0 21%;
-        font-size: 10px;
-        gap: 15%;
+        margin: 0 30% 0 5%;
+        font-size: 9px;
+        gap: 10%;
     }
     .uppersection1 ul{
-        margin-left: 10%;
-        gap: 6%;
+        margin-left: 0 5%;
+        gap: ;
     }
     
-    ul div{
-        width: 5%;
-    }
     .section1 input{
         width: 77%;
         margin-left: 12%;
     }
+    
     .section1 ::placeholder{
         font-size: 15px;
     }
