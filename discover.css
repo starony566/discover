@@ -653,8 +653,8 @@ body{
        
     }
     .bottom-div{
-        margin-left: 35rem;
-        margin-top: -32%;
+        margin-left: 38rem;
+        margin-top: -30%;
     }
     .footer1{
         gap: 2rem;
@@ -665,7 +665,8 @@ body{
         margin-right: 10% ;
     }
     .span-icon{
-        margin-left: 39%;
+        margin-left: 30%;
+        flex-wrap: wrap;
     }
     
     .btcopyright{
@@ -673,12 +674,12 @@ body{
     }
 
 }
-/* @media screen and (max-width: 720px) {
+ @media screen and (max-width: 600px) { 
     body {
         background-color: rgb(255, 253, 127);
         margin-right: auto;
-        overflow-x: hidden;
     }
+
     .uppersection{
         margin-right: 100%;
     }
@@ -690,7 +691,7 @@ body{
     }
     .uppersection1 span{
         font-size: 10px;
-        margin-left: 20px;  
+        margin-left: -60px;  
     }
     .home{
         margin-left: 5%;
@@ -699,7 +700,6 @@ body{
         margin-left: -10%;
     }
     .uppersection1 ul{
-        display: none;
         margin-left: 5%;
         margin-right: 5%;
         gap: 10%;
@@ -708,7 +708,7 @@ body{
     }
     .searchi i{
         font-size: 20px;
-        margin-left: -4.5rem;
+        margin-left: -10px;
         margin-top: 1.5rem;
     }
     
@@ -720,7 +720,7 @@ body{
         font-size: 12px;
     }
     .section1 button{
-        margin-left: -20%;
+        margin-left: -25%;
         margin-top: 1.5rem;
     }
     .section2{
@@ -837,6 +837,6 @@ body{
     
     .btcopyright{
         margin-right: 30%;
-    } */
+    } 
 
 }
