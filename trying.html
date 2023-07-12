@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="trying.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://kit.fontawesome.com/e8b3228c9a.js"crossorigin="anonymous"></script>
+    <scrip src="https://kit.fontawesome.com/e8b3228c9a.js"crossorigin="anonymous"></script>
     <title>Document</title>
+    
 </head>
 <body>
     <div class="uppersection" id="uppersection">
@@ -145,9 +146,24 @@
                 <img src="https://templatemo.com/templates/templatemo_590_topic_listing/images/faq_graphic.jpg" alt="pic" style="height:30rem; margin-left:-45%;">
             </div>
             <div style="margin-left: -10%; margin-top:10%;">
-                <p style="font-size: 22px; color: black;">What is Topic Listing?</p>
-                <p style="font-size: 22px; color: black;">How to find a topic?</p>   
-                <p style="font-size: 22px; color: black;">Does it need to paid?</p> 
+            <details>
+                <summary style="font-size: 22px; color: black;">What is Topic Listing?</summary>
+                     <p>Topic Listing is free Bootstrap 5 CSS template. <b>You are not <br> 
+                     allowed to redistribute this template</b> on any other template <br>
+                     collection website without our permission. Please contact <br> TemplateMo
+                     for more detail. Thank you.</p>
+            </details>
+            <details>
+                <summary style="font-size: 22px; color: black;">How to find a topic?</summary> 
+                <p>You can search on Google with keywords such as templatemo <br> portfolio, 
+                templatemo one-page layouts, photography, digital <br> marketing, etc.</p>
+            </details>  
+            <details>
+                <summary style="font-size: 22px; color: black;">Does it need to paid?</summary>
+                <p>You can modify any of this with custom CSS or overriding our <br> default variables.
+                    It's also worth noting that just about any HTML <br> can go within the 
+                    .accordion-body, though the transition does limit overflow.</p> 
+            </details>
             </div>
         </div>
     </section>
@@ -198,7 +214,16 @@
         </div>
         <div class="bottom-border"></div>
         <div class="bottom-div"></div>
-<!--      
+        <h1>JavaScript Arithmetic</h1>
+        <h2>The += Operator</h2>
+
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+<input type="range" id="a" value="50">
++<input type="number" id="b" value="25">
+=<output name="x" for="a b"></output>
+</form>
+                
         <svg height="130" width="500">
             <defs>
               <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -214,6 +239,13 @@
         </svg>
           <object data="people watching computer.avif" width="300" height="200"><i class='bx bx-search-alt-2'></i></object> -->
     </footer>
- 
+    <script>
+        let x = 5;
+        let y = 5;
+        let z = x + y;
+        document.getElementById("form").innerHTML = z;
+        checkbox("hello world");
+    </script>
+
 </body>
 </html>

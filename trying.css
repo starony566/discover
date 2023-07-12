@@ -443,6 +443,11 @@ body{
     background-color: rgb(128,208,199);
     color: white;
 }
+
+summary:hover{
+    cursor: pointer;
+
+}
 .before-footer{
     padding-top: 5rem;
     background-color: rgb(240,248,255);
@@ -530,7 +535,6 @@ body{
 
 
 
-  
   @media screen and (max-width: 720px) {
     body {
         background-color: aquamarine;
@@ -548,7 +552,7 @@ body{
     }
     .uppersection1 ul{
         margin-left: 0 5%;
-        gap: ;
+    
     }
     
     .section1 input{
